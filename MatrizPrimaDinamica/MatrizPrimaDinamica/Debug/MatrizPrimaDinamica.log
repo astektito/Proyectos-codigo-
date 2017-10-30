@@ -1,0 +1,5 @@
+﻿  Programa.cpp
+c:\users\danjo\documents\visual studio 2017\projects\semestre anterior\primer parcial\matrizprimadinamica\matrizprimadinamica\programa.cpp(77): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+  c:\users\danjo\documents\visual studio 2017\projects\semestre anterior\primer parcial\matrizprimadinamica\matrizprimadinamica\programa.cpp(77): note: los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 2
+  MatrizPrimaDinamica.vcxproj -> C:\Users\Danjo\Documents\Visual Studio 2017\Projects\Semestre Anterior\PRIMER PARCIAL\MatrizPrimaDinamica\Debug\MatrizPrimaDinamica.exe
+  MatrizPrimaDinamica.vcxproj -> C:\Users\Danjo\Documents\Visual Studio 2017\Projects\Semestre Anterior\PRIMER PARCIAL\MatrizPrimaDinamica\Debug\MatrizPrimaDinamica.pdb (Partial PDB)
