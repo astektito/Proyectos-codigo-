@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1497870041 source:d:\espe\progra\progra 1\seno_taylor\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<math.h>
+
