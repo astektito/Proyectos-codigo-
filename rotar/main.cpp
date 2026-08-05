@@ -21,8 +21,6 @@ void rotar(int *vec)
 int main()
 {
     int vec[5];
-    char D[10];
-    gets(D);
     for(int i=0;i<5;i++)
     {
         printf("Ingrese un numero ");
@@ -30,4 +28,5 @@ int main()
     }
     rotar(vec);
 
+    return 0;
 }

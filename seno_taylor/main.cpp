@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <math.h>
-int factorial (int);
+long long factorial (int);
 
 int main()
 {
@@ -26,12 +25,13 @@ int main()
           n++;
 
     }
-    printf ("\nEl valor del seno es:%lf",sinx);
-    getch();
+    printf ("\nEl valor del seno es:%lf\n",sinx);
+    return 0;
 }
-int factorial (int a)
+long long factorial (int a)
 {
-    int i,fac;
+    int i;
+    long long fac;
 
     fac=1;
     for (i=a;i>0;i--)
