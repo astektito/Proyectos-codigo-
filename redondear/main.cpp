@@ -1,22 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<math.h>
 int main ()
 {
     float num=0;
-    int aux=0;
     printf("ingrese un numero ");
     scanf("%f",&num);
 
-    num=num*10;
-    aux=num/10;
-    printf("numero: %1f \n %i\n",num,aux);
-    if (aux>=5)
-    {
-        aux*=10;
-        printf("numero: %i",aux+10);
-    }
+    printf("numero ingresado: %f\n", num);
+    printf("numero redondeado: %d\n", (int)round(num));
 
-
+    return 0;
 }
 
 

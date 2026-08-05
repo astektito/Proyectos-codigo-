@@ -19,8 +19,7 @@ int main()
 {
 	int a;
 	printf("\nIntroduzca un numero:\n\n");
-	scanf("%d*c%",&a);
-	printf("suma digitos es %d",n);
+	scanf("%d",&a);
 	if(a<0)
 		printf("\nError: numero negativo\n");
 	else
