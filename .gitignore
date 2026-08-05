@@ -1,0 +1,70 @@
+# ==========================================================
+# .gitignore para el repositorio (C++ y Java)
+# Ignora binarios, artefactos de compilacion y archivos de IDE
+# ==========================================================
+
+# ---------------------------
+# Visual Studio (C++/C#)
+# ---------------------------
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.tlog
+*.log
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.aps
+*.ncb
+[Dd]ebug/
+[Rr]elease/
+
+# ---------------------------
+# Code::Blocks (C++)
+# ---------------------------
+bin/
+obj/
+*.depend
+*.layout
+
+# ---------------------------
+# Otros artefactos C/C++
+# ---------------------------
+*.a
+*.lib
+*.dll
+*.so
+*.out
+*.exe.stackdump
+
+# ---------------------------
+# NetBeans / Java / Ant
+# ---------------------------
+build/
+dist/
+nbbuild/
+nbdist/
+*.class
+*.jar
+**/nbproject/private/
+
+# ---------------------------
+# Varios
+# ---------------------------
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
