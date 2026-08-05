@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package puntopoo;
 
 /**
+ * Clase principal: crea puntos y calcula el recorrido acumulado entre ellos.
  *
- * @author Labs-DECC
+ * @author Edwin Astudillo
  */
 public class PuntoPOO {
 
@@ -15,13 +11,12 @@ public class PuntoPOO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Punto p1=new Punto(5,-7);
-        Punto p2=new Punto(5,0);
-       Operaciones mosca1=new Operaciones();
-       mosca1.calcularD(p1);
-       mosca1.mostrarR();
-       mosca1.calcularD(p2);
-       mosca1.mostrarR();
-    
+        Punto p1 = new Punto(5, -7);
+        Punto p2 = new Punto(5, 0);
+        Operaciones recorrido = new Operaciones();
+        recorrido.calcularD(p1);
+        recorrido.mostrarR();
+        recorrido.calcularD(p2);
+        recorrido.mostrarR();
     }
 }
